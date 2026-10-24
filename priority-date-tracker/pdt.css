@@ -1,0 +1,43 @@
+/* Priority Date Tracker 页面：在 /style.css 的基础上加表格、提示框、商店按钮 */
+:root {
+  --panel: #f5f7fa;
+  --accent: #0b57d0;
+  --up: #137333;
+  --down: #c5221f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --panel: #1e1f22;
+    --accent: #8ab4f8;
+    --up: #81c995;
+    --down: #f28b82;
+  }
+}
+main.pdt { max-width: 760px; padding-top: 24px; }
+.pdt h1 { font-size: 1.6rem; line-height: 1.3; margin: 0.5rem 0; }
+.pdt h2 { font-size: 1.2rem; margin-top: 2.25rem; }
+.pdt h2.sub { border-top: 1px solid var(--rule); padding-top: 1.5rem; }
+.pdt h3 { font-size: 1rem; margin-top: 1.5rem; }
+.langs, .crumbs, .meta { font-size: 0.85rem; color: var(--muted); }
+.langs { text-align: right; }
+.langs a[aria-current] { color: var(--text); font-weight: 600; text-decoration: none; }
+.lede { color: var(--muted); }
+.answer { background: var(--panel); border-left: 4px solid var(--accent); padding: 4px 16px; border-radius: 6px; }
+.answer.small { border-left-width: 2px; }
+.tbl { overflow-x: auto; }
+.pdt table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+.pdt th, .pdt td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.pdt thead th { font-size: 0.85rem; color: var(--muted); font-weight: 600; }
+.pdt tbody th { font-weight: 500; }
+.chg.up { color: var(--up); }
+.chg.down { color: var(--down); }
+.chg.same { color: var(--muted); }
+.trend li, .pdt ul li { margin-bottom: 0.4rem; }
+.cta { background: var(--panel); border-radius: 12px; padding: 4px 20px 12px; margin: 2rem 0; }
+.cta h2 { margin-top: 1rem; }
+.stores { display: flex; flex-wrap: wrap; gap: 10px; }
+.store { display: inline-block; padding: 10px 16px; border-radius: 10px; background: var(--text); color: var(--bg); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+.links { columns: 2; column-gap: 24px; }
+@media (max-width: 520px) { .links { columns: 1; } }
+.attr { font-size: 0.9rem; color: var(--muted); margin-top: 2rem; }
+.disclaimer { font-size: 0.8rem; color: var(--muted); }

@@ -1,0 +1,4254 @@
+{
+ "months": {
+  "2025-10": {
+   "released": "2025-09-12",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|CHINA-mainland": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|INDIA": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|MEXICO": {
+     "A": "22NOV05",
+     "B": "08OCT06"
+    },
+    "F1|PHILIPPINES": {
+     "A": "22JAN13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01FEB24",
+     "B": "22SEP25"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01FEB24",
+     "B": "22SEP25"
+    },
+    "F2A|INDIA": {
+     "A": "01FEB24",
+     "B": "22SEP25"
+    },
+    "F2A|MEXICO": {
+     "A": "01FEB23",
+     "B": "22SEP25"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01FEB24",
+     "B": "22SEP25"
+    },
+    "F2B|All Chargeability": {
+     "A": "22NOV16",
+     "B": "01JAN17"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "22NOV16",
+     "B": "01JAN17"
+    },
+    "F2B|INDIA": {
+     "A": "22NOV16",
+     "B": "01JAN17"
+    },
+    "F2B|MEXICO": {
+     "A": "15DEC07",
+     "B": "15DEC08"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "01OCT12",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|INDIA": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|MEXICO": {
+     "A": "15APR01",
+     "B": "15JUN01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22SEP04",
+     "B": "01AUG05"
+    },
+    "F4|All Chargeability": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "22MAR06",
+     "B": "01JAN08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "22DEC22",
+     "B": "15MAY23"
+    },
+    "EB-1|INDIA": {
+     "A": "15FEB22",
+     "B": "15APR23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "01DEC23",
+     "B": "15JUL24"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01APR21",
+     "B": "01DEC21"
+    },
+    "EB-2|INDIA": {
+     "A": "01APR13",
+     "B": "01DEC13"
+    },
+    "EB-2|MEXICO": {
+     "A": "01DEC23",
+     "B": "15JUL24"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "01DEC23",
+     "B": "15JUL24"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01APR23",
+     "B": "01JUL23"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01MAR21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "22AUG13",
+     "B": "15AUG14"
+    },
+    "EB-3|MEXICO": {
+     "A": "01APR23",
+     "B": "01JUL23"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01APR23",
+     "B": "01JUL23"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "15JUL21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01DEC17",
+     "B": "01OCT18"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "22AUG13",
+     "B": "15AUG14"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "15JUL21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "15JUL21",
+     "B": "01DEC21"
+    },
+    "EB-4|All Chargeability": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4|INDIA": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4|MEXICO": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "08DEC15",
+     "B": "01JUL16"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01FEB21",
+     "B": "01APR22"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2025-11": {
+   "released": "2025-10-15",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|CHINA-mainland": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|INDIA": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|MEXICO": {
+     "A": "22NOV05",
+     "B": "01MAR07"
+    },
+    "F1|PHILIPPINES": {
+     "A": "22JAN13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01FEB24",
+     "B": "22OCT25"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01FEB24",
+     "B": "22OCT25"
+    },
+    "F2A|INDIA": {
+     "A": "01FEB24",
+     "B": "22OCT25"
+    },
+    "F2A|MEXICO": {
+     "A": "01FEB23",
+     "B": "22OCT25"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01FEB24",
+     "B": "22OCT25"
+    },
+    "F2B|All Chargeability": {
+     "A": "01DEC16",
+     "B": "08MAR17"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "08MAR17"
+    },
+    "F2B|INDIA": {
+     "A": "01DEC16",
+     "B": "08MAR17"
+    },
+    "F2B|MEXICO": {
+     "A": "15DEC07",
+     "B": "15MAY09"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "01OCT12",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|INDIA": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|MEXICO": {
+     "A": "01MAY01",
+     "B": "01JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22SEP04",
+     "B": "01NOV05"
+    },
+    "F4|All Chargeability": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "22MAR06",
+     "B": "01JAN08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "22DEC22",
+     "B": "15MAY23"
+    },
+    "EB-1|INDIA": {
+     "A": "15FEB22",
+     "B": "15APR23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "01DEC23",
+     "B": "15JUL24"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01APR21",
+     "B": "01DEC21"
+    },
+    "EB-2|INDIA": {
+     "A": "01APR13",
+     "B": "01DEC13"
+    },
+    "EB-2|MEXICO": {
+     "A": "01DEC23",
+     "B": "15JUL24"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "01DEC23",
+     "B": "15JUL24"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01APR23",
+     "B": "01JUL23"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01MAR21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "22AUG13",
+     "B": "15AUG14"
+    },
+    "EB-3|MEXICO": {
+     "A": "01APR23",
+     "B": "01JUL23"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01APR23",
+     "B": "01JUL23"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "15JUL21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01DEC17",
+     "B": "01OCT18"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "22AUG13",
+     "B": "15AUG14"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "15JUL21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "15JUL21",
+     "B": "01DEC21"
+    },
+    "EB-4|All Chargeability": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4|INDIA": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4|MEXICO": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "01JUL20",
+     "B": "15FEB21"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "08DEC15",
+     "B": "01JUL16"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01FEB21",
+     "B": "01APR22"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2025-12": {
+   "released": "2025-11-14",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|CHINA-mainland": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|INDIA": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|MEXICO": {
+     "A": "01MAR06",
+     "B": "01MAR07"
+    },
+    "F1|PHILIPPINES": {
+     "A": "22JAN13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01FEB24",
+     "B": "22NOV25"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01FEB24",
+     "B": "22NOV25"
+    },
+    "F2A|INDIA": {
+     "A": "01FEB24",
+     "B": "22NOV25"
+    },
+    "F2A|MEXICO": {
+     "A": "01FEB23",
+     "B": "22NOV25"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01FEB24",
+     "B": "22NOV25"
+    },
+    "F2B|All Chargeability": {
+     "A": "01DEC16",
+     "B": "08MAR17"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "08MAR17"
+    },
+    "F2B|INDIA": {
+     "A": "01DEC16",
+     "B": "08MAR17"
+    },
+    "F2B|MEXICO": {
+     "A": "15MAY08",
+     "B": "15MAY09"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "08OCT12",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|INDIA": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|MEXICO": {
+     "A": "01MAY01",
+     "B": "01JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "01NOV04",
+     "B": "01NOV05"
+    },
+    "F4|All Chargeability": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "15JUL06",
+     "B": "01JAN08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "22JAN23",
+     "B": "15MAY23"
+    },
+    "EB-1|INDIA": {
+     "A": "15MAR22",
+     "B": "15APR23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "01FEB24",
+     "B": "15JUL24"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01JUN21",
+     "B": "01DEC21"
+    },
+    "EB-2|INDIA": {
+     "A": "15MAY13",
+     "B": "01DEC13"
+    },
+    "EB-2|MEXICO": {
+     "A": "01FEB24",
+     "B": "15JUL24"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "01FEB24",
+     "B": "15JUL24"
+    },
+    "EB-3|All Chargeability": {
+     "A": "15APR23",
+     "B": "01JUL23"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01APR21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "22SEP13",
+     "B": "15AUG14"
+    },
+    "EB-3|MEXICO": {
+     "A": "15APR23",
+     "B": "01JUL23"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "15APR23",
+     "B": "01JUL23"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01AUG21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "08DEC17",
+     "B": "01OCT18"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "22SEP13",
+     "B": "15AUG14"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01AUG21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01AUG21",
+     "B": "01DEC21"
+    },
+    "EB-4|All Chargeability": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4|INDIA": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4|MEXICO": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "01SEP20",
+     "B": "15FEB21"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "15JUL16",
+     "B": "22JUL16"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01JUL21",
+     "B": "01APR22"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2026-01": {
+   "released": "2025-12-18",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|CHINA-mainland": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|INDIA": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|MEXICO": {
+     "A": "01SEP06",
+     "B": "01SEP07"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAR13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01FEB24",
+     "B": "22DEC25"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01FEB24",
+     "B": "22DEC25"
+    },
+    "F2A|INDIA": {
+     "A": "01FEB24",
+     "B": "22DEC25"
+    },
+    "F2A|MEXICO": {
+     "A": "01FEB23",
+     "B": "22DEC25"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01FEB24",
+     "B": "22DEC25"
+    },
+    "F2B|All Chargeability": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|INDIA": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|MEXICO": {
+     "A": "15NOV08",
+     "B": "15NOV09"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "22DEC12",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|INDIA": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|MEXICO": {
+     "A": "01MAY01",
+     "B": "01JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "01MAR05",
+     "B": "01FEB06"
+    },
+    "F4|All Chargeability": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "22JUL06",
+     "B": "15JAN08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01FEB23",
+     "B": "01AUG23"
+    },
+    "EB-1|INDIA": {
+     "A": "01FEB23",
+     "B": "01AUG23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "01APR24",
+     "B": "15OCT24"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "EB-2|INDIA": {
+     "A": "15JUL13",
+     "B": "01DEC13"
+    },
+    "EB-2|MEXICO": {
+     "A": "01APR24",
+     "B": "15OCT24"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "01APR24",
+     "B": "15OCT24"
+    },
+    "EB-3|All Chargeability": {
+     "A": "22APR23",
+     "B": "01JUL23"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01MAY21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "15NOV13",
+     "B": "15AUG14"
+    },
+    "EB-3|MEXICO": {
+     "A": "22APR23",
+     "B": "01JUL23"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "22APR23",
+     "B": "01JUL23"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01SEP21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "08DEC18",
+     "B": "01OCT19"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "15NOV13",
+     "B": "15AUG14"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01SEP21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01SEP21",
+     "B": "01DEC21"
+    },
+    "EB-4|All Chargeability": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4|INDIA": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4|MEXICO": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "15AUG16",
+     "B": "22AUG16"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01MAY22",
+     "B": "01MAY24"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2026-02": {
+   "released": "2026-01-12",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|CHINA-mainland": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|INDIA": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|MEXICO": {
+     "A": "22DEC06",
+     "B": "01DEC07"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAR13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01FEB24",
+     "B": "22JAN26"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01FEB24",
+     "B": "22JAN26"
+    },
+    "F2A|INDIA": {
+     "A": "01FEB24",
+     "B": "22JAN26"
+    },
+    "F2A|MEXICO": {
+     "A": "01FEB23",
+     "B": "22JAN26"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01FEB24",
+     "B": "22JAN26"
+    },
+    "F2B|All Chargeability": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|INDIA": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|MEXICO": {
+     "A": "15FEB09",
+     "B": "15FEB10"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "22DEC12",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|INDIA": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|MEXICO": {
+     "A": "01MAY01",
+     "B": "01JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "01MAR05",
+     "B": "01FEB06"
+    },
+    "F4|All Chargeability": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "22JUL06",
+     "B": "15JAN08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01FEB23",
+     "B": "01AUG23"
+    },
+    "EB-1|INDIA": {
+     "A": "01FEB23",
+     "B": "01AUG23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "01APR24",
+     "B": "15OCT24"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "EB-2|INDIA": {
+     "A": "15JUL13",
+     "B": "01DEC13"
+    },
+    "EB-2|MEXICO": {
+     "A": "01APR24",
+     "B": "15OCT24"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "01APR24",
+     "B": "15OCT24"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01JUN23",
+     "B": "01OCT23"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01MAY21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "15NOV13",
+     "B": "15AUG14"
+    },
+    "EB-3|MEXICO": {
+     "A": "01JUN23",
+     "B": "01OCT23"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01JUN23",
+     "B": "01OCT23"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01SEP21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "08DEC18",
+     "B": "01OCT19"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "15NOV13",
+     "B": "15AUG14"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01SEP21",
+     "B": "01DEC21"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01SEP21",
+     "B": "01DEC21"
+    },
+    "EB-4|All Chargeability": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4|INDIA": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4|MEXICO": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "01JAN21",
+     "B": "15MAR21"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "U",
+     "B": "U"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "15AUG16",
+     "B": "22AUG16"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01MAY22",
+     "B": "01MAY24"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2026-03": {
+   "released": "2026-02-19",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|CHINA-mainland": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|INDIA": {
+     "A": "08NOV16",
+     "B": "01SEP17"
+    },
+    "F1|MEXICO": {
+     "A": "22DEC06",
+     "B": "01DEC07"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAR13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01FEB24",
+     "B": "22FEB26"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01FEB24",
+     "B": "22FEB26"
+    },
+    "F2A|INDIA": {
+     "A": "01FEB24",
+     "B": "22FEB26"
+    },
+    "F2A|MEXICO": {
+     "A": "01FEB23",
+     "B": "22FEB26"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01FEB24",
+     "B": "22FEB26"
+    },
+    "F2B|All Chargeability": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|INDIA": {
+     "A": "01DEC16",
+     "B": "15MAR17"
+    },
+    "F2B|MEXICO": {
+     "A": "15FEB09",
+     "B": "15FEB10"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "22DEC12",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|INDIA": {
+     "A": "08SEP11",
+     "B": "22JUL12"
+    },
+    "F3|MEXICO": {
+     "A": "01MAY01",
+     "B": "01JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "01MAR05",
+     "B": "01JUN06"
+    },
+    "F4|All Chargeability": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "08JAN08",
+     "B": "01MAR09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "01SEP06",
+     "B": "15JAN08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01MAR23",
+     "B": "01DEC23"
+    },
+    "EB-1|INDIA": {
+     "A": "01MAR23",
+     "B": "01DEC23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "15OCT24",
+     "B": "C"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "EB-2|INDIA": {
+     "A": "15SEP13",
+     "B": "01NOV14"
+    },
+    "EB-2|MEXICO": {
+     "A": "15OCT24",
+     "B": "C"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "15OCT24",
+     "B": "C"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01OCT23",
+     "B": "15JAN24"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01MAY21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "15NOV13",
+     "B": "15AUG14"
+    },
+    "EB-3|MEXICO": {
+     "A": "01OCT23",
+     "B": "15JAN24"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01AUG23",
+     "B": "01JAN24"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01NOV21",
+     "B": "22JUN22"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "08DEC18",
+     "B": "01OCT19"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "15NOV13",
+     "B": "15AUG14"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01NOV21",
+     "B": "22JUN22"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01NOV21",
+     "B": "22JUN22"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4|INDIA": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4|MEXICO": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15JUL21",
+     "B": "01JAN23"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "15AUG16",
+     "B": "01OCT16"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01MAY22",
+     "B": "01MAY24"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2026-04": {
+   "released": "2026-03-17",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "01MAY17",
+     "B": "01MAR18"
+    },
+    "F1|CHINA-mainland": {
+     "A": "01MAY17",
+     "B": "01MAR18"
+    },
+    "F1|INDIA": {
+     "A": "01MAY17",
+     "B": "01MAR18"
+    },
+    "F1|MEXICO": {
+     "A": "15FEB07",
+     "B": "15APR08"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAY13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01FEB24",
+     "B": "C"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01FEB24",
+     "B": "C"
+    },
+    "F2A|INDIA": {
+     "A": "01FEB24",
+     "B": "C"
+    },
+    "F2A|MEXICO": {
+     "A": "01FEB23",
+     "B": "C"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01FEB24",
+     "B": "C"
+    },
+    "F2B|All Chargeability": {
+     "A": "22MAY17",
+     "B": "08AUG17"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "22MAY17",
+     "B": "08AUG17"
+    },
+    "F2B|INDIA": {
+     "A": "22MAY17",
+     "B": "08AUG17"
+    },
+    "F2B|MEXICO": {
+     "A": "15FEB09",
+     "B": "15MAY10"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "08APR13",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "22DEC11",
+     "B": "22NOV12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "22DEC11",
+     "B": "22NOV12"
+    },
+    "F3|INDIA": {
+     "A": "22DEC11",
+     "B": "22NOV12"
+    },
+    "F3|MEXICO": {
+     "A": "01MAY01",
+     "B": "01JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "01JUL05",
+     "B": "15JUL06"
+    },
+    "F4|All Chargeability": {
+     "A": "08JUN08",
+     "B": "15MAY09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "08JUN08",
+     "B": "15MAY09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "01FEB07",
+     "B": "22MAR08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01APR23",
+     "B": "01DEC23"
+    },
+    "EB-1|INDIA": {
+     "A": "01APR23",
+     "B": "01DEC23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "EB-2|INDIA": {
+     "A": "15JUL14",
+     "B": "15JAN15"
+    },
+    "EB-2|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01JUN24",
+     "B": "C"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "15JUN21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "15NOV13",
+     "B": "15JAN15"
+    },
+    "EB-3|MEXICO": {
+     "A": "01JUN24",
+     "B": "C"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01AUG23",
+     "B": "01JAN24"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01NOV21",
+     "B": "01AUG22"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01FEB19",
+     "B": "01OCT19"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "15NOV13",
+     "B": "15JAN15"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01NOV21",
+     "B": "01AUG22"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01NOV21",
+     "B": "01AUG22"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|INDIA": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|MEXICO": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "01SEP16",
+     "B": "01OCT16"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01MAY22",
+     "B": "01MAY24"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2026-05": {
+   "released": "2026-04-22",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "01SEP17",
+     "B": "01OCT18"
+    },
+    "F1|CHINA-mainland": {
+     "A": "01SEP17",
+     "B": "01OCT18"
+    },
+    "F1|INDIA": {
+     "A": "01SEP17",
+     "B": "01OCT18"
+    },
+    "F1|MEXICO": {
+     "A": "15AUG07",
+     "B": "01OCT08"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAY13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01AUG24",
+     "B": "C"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01AUG24",
+     "B": "C"
+    },
+    "F2A|INDIA": {
+     "A": "01AUG24",
+     "B": "C"
+    },
+    "F2A|MEXICO": {
+     "A": "01AUG23",
+     "B": "C"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01AUG24",
+     "B": "C"
+    },
+    "F2B|All Chargeability": {
+     "A": "22MAY17",
+     "B": "01JAN18"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "22MAY17",
+     "B": "01JAN18"
+    },
+    "F2B|INDIA": {
+     "A": "22MAY17",
+     "B": "01JAN18"
+    },
+    "F2B|MEXICO": {
+     "A": "15FEB09",
+     "B": "15MAY10"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "08APR13",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "15FEB12",
+     "B": "08DEC12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "15FEB12",
+     "B": "08DEC12"
+    },
+    "F3|INDIA": {
+     "A": "15FEB12",
+     "B": "08DEC12"
+    },
+    "F3|MEXICO": {
+     "A": "01MAY01",
+     "B": "15JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22NOV05",
+     "B": "08AUG06"
+    },
+    "F4|All Chargeability": {
+     "A": "15SEP08",
+     "B": "01SEP09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "15SEP08",
+     "B": "01SEP09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "15JUL07",
+     "B": "22MAR08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01APR23",
+     "B": "01DEC23"
+    },
+    "EB-1|INDIA": {
+     "A": "01APR23",
+     "B": "01DEC23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "EB-2|INDIA": {
+     "A": "15JUL14",
+     "B": "15JAN15"
+    },
+    "EB-2|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01JUN24",
+     "B": "C"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "15JUN21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "15NOV13",
+     "B": "15JAN15"
+    },
+    "EB-3|MEXICO": {
+     "A": "01JUN24",
+     "B": "C"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01AUG23",
+     "B": "01JAN24"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01FEB22",
+     "B": "01AUG22"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01FEB19",
+     "B": "01OCT19"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "15NOV13",
+     "B": "15JAN15"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01FEB22",
+     "B": "01AUG22"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01NOV21",
+     "B": "01AUG22"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|INDIA": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|MEXICO": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "22SEP16",
+     "B": "01MAR17"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01MAY22",
+     "B": "01MAY24"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2026-06": {
+   "released": "2026-05-14",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "01SEP17",
+     "B": "01OCT18"
+    },
+    "F1|CHINA-mainland": {
+     "A": "01SEP17",
+     "B": "01OCT18"
+    },
+    "F1|INDIA": {
+     "A": "01SEP17",
+     "B": "01OCT18"
+    },
+    "F1|MEXICO": {
+     "A": "08NOV07",
+     "B": "01OCT08"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAY13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01JAN25",
+     "B": "C"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01JAN25",
+     "B": "C"
+    },
+    "F2A|INDIA": {
+     "A": "01JAN25",
+     "B": "C"
+    },
+    "F2A|MEXICO": {
+     "A": "01JAN24",
+     "B": "C"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01JAN25",
+     "B": "C"
+    },
+    "F2B|All Chargeability": {
+     "A": "22SEP17",
+     "B": "22MAR18"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "22SEP17",
+     "B": "22MAR18"
+    },
+    "F2B|INDIA": {
+     "A": "22SEP17",
+     "B": "22MAR18"
+    },
+    "F2B|MEXICO": {
+     "A": "15FEB09",
+     "B": "15MAY10"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "08APR13",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "15FEB12",
+     "B": "08DEC12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "15FEB12",
+     "B": "08DEC12"
+    },
+    "F3|INDIA": {
+     "A": "15FEB12",
+     "B": "08DEC12"
+    },
+    "F3|MEXICO": {
+     "A": "01MAY01",
+     "B": "15JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22NOV05",
+     "B": "08AUG06"
+    },
+    "F4|All Chargeability": {
+     "A": "08NOV08",
+     "B": "22DEC09"
+    },
+    "F4|CHINA-mainland": {
+     "A": "08NOV08",
+     "B": "22DEC09"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "15JUL07",
+     "B": "22MAR08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01APR23",
+     "B": "01DEC23"
+    },
+    "EB-1|INDIA": {
+     "A": "15DEC22",
+     "B": "01DEC23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "EB-2|INDIA": {
+     "A": "01SEP13",
+     "B": "15JAN15"
+    },
+    "EB-2|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01JUN24",
+     "B": "C"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01AUG21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "15DEC13",
+     "B": "15JAN15"
+    },
+    "EB-3|MEXICO": {
+     "A": "01JUN24",
+     "B": "C"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01AUG23",
+     "B": "01JAN24"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01FEB22",
+     "B": "01AUG22"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01APR19",
+     "B": "01OCT19"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "15DEC13",
+     "B": "15JAN15"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01FEB22",
+     "B": "01AUG22"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01NOV21",
+     "B": "01AUG22"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|INDIA": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|MEXICO": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15JUL22",
+     "B": "01JAN23"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "22SEP16",
+     "B": "01MAR17"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01MAY22",
+     "B": "01MAY24"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2026-07": {
+   "released": "2026-06-18",
+   "cells": {
+    "F1|All Chargeability": {
+     "A": "01FEB18",
+     "B": "01JAN19"
+    },
+    "F1|CHINA-mainland": {
+     "A": "01FEB18",
+     "B": "01JAN19"
+    },
+    "F1|INDIA": {
+     "A": "01FEB18",
+     "B": "01JAN19"
+    },
+    "F1|MEXICO": {
+     "A": "08NOV07",
+     "B": "01OCT08"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAY13",
+     "B": "22APR15"
+    },
+    "F2A|All Chargeability": {
+     "A": "01JAN25",
+     "B": "C"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "01JAN25",
+     "B": "C"
+    },
+    "F2A|INDIA": {
+     "A": "01JAN25",
+     "B": "C"
+    },
+    "F2A|MEXICO": {
+     "A": "01JAN24",
+     "B": "C"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "01JAN25",
+     "B": "C"
+    },
+    "F2B|All Chargeability": {
+     "A": "22NOV17",
+     "B": "08JUN18"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "22NOV17",
+     "B": "08JUN18"
+    },
+    "F2B|INDIA": {
+     "A": "22NOV17",
+     "B": "08JUN18"
+    },
+    "F2B|MEXICO": {
+     "A": "15FEB09",
+     "B": "15MAY10"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "15MAY13",
+     "B": "01OCT13"
+    },
+    "F3|All Chargeability": {
+     "A": "15APR12",
+     "B": "08DEC12"
+    },
+    "F3|CHINA-mainland": {
+     "A": "15APR12",
+     "B": "08DEC12"
+    },
+    "F3|INDIA": {
+     "A": "15APR12",
+     "B": "08DEC12"
+    },
+    "F3|MEXICO": {
+     "A": "01JUN01",
+     "B": "15JUL01"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22FEB06",
+     "B": "08AUG06"
+    },
+    "F4|All Chargeability": {
+     "A": "01JAN09",
+     "B": "01MAR10"
+    },
+    "F4|CHINA-mainland": {
+     "A": "01JAN09",
+     "B": "01MAR10"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "01AUG07",
+     "B": "22MAR08"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01JUN23",
+     "B": "01DEC23"
+    },
+    "EB-1|INDIA": {
+     "A": "15OCT22",
+     "B": "01DEC23"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "EB-2|INDIA": {
+     "A": "U",
+     "B": "15JAN15"
+    },
+    "EB-2|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01AUG24",
+     "B": "C"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "22DEC21",
+     "B": "01JAN22"
+    },
+    "EB-3|INDIA": {
+     "A": "01JAN14",
+     "B": "15JAN15"
+    },
+    "EB-3|MEXICO": {
+     "A": "01AUG24",
+     "B": "C"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01AUG23",
+     "B": "01JAN24"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01MAR22",
+     "B": "01AUG22"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01APR19",
+     "B": "01OCT19"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "01JAN14",
+     "B": "15JAN15"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01MAR22",
+     "B": "01AUG22"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01DEC21",
+     "B": "01AUG22"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4|INDIA": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4|MEXICO": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15SEP22",
+     "B": "01JAN23"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "01MAR17"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "U",
+     "B": "01MAY24"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    }
+   }
+  },
+  "2026-08": {
+   "released": "2026-07-21",
+   "cells": {
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01JUL23",
+     "B": "01DEC23"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "01JAN18",
+     "B": "01JAN19"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "F1|All Chargeability": {
+     "A": "15DEC18",
+     "B": "15JUN19"
+    },
+    "F1|INDIA": {
+     "A": "15DEC18",
+     "B": "15JUN19"
+    },
+    "EB-2|INDIA": {
+     "A": "U",
+     "B": "15JAN15"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAY13",
+     "B": "22APR15"
+    },
+    "F2B|INDIA": {
+     "A": "01JAN18",
+     "B": "01JAN19"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01AUG23",
+     "B": "01JAN24"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "F4|All Chargeability": {
+     "A": "01SEP09",
+     "B": "22JUN10"
+    },
+    "EB-2|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "F2A|INDIA": {
+     "A": "22JUL26",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01SEP24",
+     "B": "C"
+    },
+    "F1|CHINA-mainland": {
+     "A": "15DEC18",
+     "B": "15JUN19"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "F3|CHINA-mainland": {
+     "A": "15MAY12",
+     "B": "01MAR13"
+    },
+    "EB-4|INDIA": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "F4|CHINA-mainland": {
+     "A": "01SEP09",
+     "B": "22JUN10"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01APR22",
+     "B": "01AUG22"
+    },
+    "F2A|MEXICO": {
+     "A": "22JUL25",
+     "B": "C"
+    },
+    "EB-4|MEXICO": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2A|All Chargeability": {
+     "A": "22JUL26",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22FEB06",
+     "B": "08AUG06"
+    },
+    "F2B|All Chargeability": {
+     "A": "01JAN18",
+     "B": "01JAN19"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01DEC21",
+     "B": "01AUG22"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01MAY19",
+     "B": "01OCT19"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "22JUL26",
+     "B": "C"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01APR22",
+     "B": "01AUG22"
+    },
+    "F2B|MEXICO": {
+     "A": "15FEB09",
+     "B": "15MAY10"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "F3|INDIA": {
+     "A": "15MAY12",
+     "B": "01MAR13"
+    },
+    "EB-3|INDIA": {
+     "A": "01JAN14",
+     "B": "15JAN15"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "22JUL26",
+     "B": "C"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "U",
+     "B": "01MAY24"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "F1|MEXICO": {
+     "A": "01DEC07",
+     "B": "01DEC08"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "01JUN13",
+     "B": "01OCT13"
+    },
+    "EB-1|INDIA": {
+     "A": "15OCT22",
+     "B": "01DEC23"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "01MAR17"
+    },
+    "F4|PHILIPPINES": {
+     "A": "01AUG07",
+     "B": "22MAR08"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "01JAN14",
+     "B": "15JAN15"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15OCT22",
+     "B": "01JAN23"
+    },
+    "EB-3|MEXICO": {
+     "A": "01SEP24",
+     "B": "C"
+    },
+    "F3|All Chargeability": {
+     "A": "15MAY12",
+     "B": "01MAR13"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01JAN22",
+     "B": "08JAN22"
+    },
+    "F3|MEXICO": {
+     "A": "01JUL01",
+     "B": "15JUL01"
+    }
+   }
+  },
+  "2026-09": {
+   "released": "2026-08-22",
+   "cells": {
+    "F1|INDIA": {
+     "A": "22JAN20",
+     "B": "01FEB20"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "01JUN13",
+     "B": "01OCT13"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "F3|INDIA": {
+     "A": "22OCT14",
+     "B": "01NOV14"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01MAY13",
+     "B": "22APR15"
+    },
+    "EB-3|MEXICO": {
+     "A": "01SEP24",
+     "B": "C"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "U",
+     "B": "01MAY24"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01APR22",
+     "B": "01AUG22"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "22AUG26",
+     "B": "C"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01SEP21",
+     "B": "01JAN22"
+    },
+    "EB-4|MEXICO": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01DEC21",
+     "B": "01AUG22"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2A|All Chargeability": {
+     "A": "22AUG26",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2B|INDIA": {
+     "A": "22AUG19",
+     "B": "01SEP19"
+    },
+    "F3|All Chargeability": {
+     "A": "22OCT14",
+     "B": "01NOV14"
+    },
+    "F4|MEXICO": {
+     "A": "08APR01",
+     "B": "30APR01"
+    },
+    "F3|MEXICO": {
+     "A": "01JUL01",
+     "B": "15JUL01"
+    },
+    "F1|MEXICO": {
+     "A": "01JAN08",
+     "B": "01DEC08"
+    },
+    "EB-2|INDIA": {
+     "A": "U",
+     "B": "15JAN15"
+    },
+    "F2A|INDIA": {
+     "A": "22AUG26",
+     "B": "C"
+    },
+    "EB-4|INDIA": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "22AUG26",
+     "B": "C"
+    },
+    "F3|CHINA-mainland": {
+     "A": "22OCT14",
+     "B": "01NOV14"
+    },
+    "F4|INDIA": {
+     "A": "01NOV06",
+     "B": "15DEC06"
+    },
+    "F4|PHILIPPINES": {
+     "A": "22AUG07",
+     "B": "22MAR08"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "F4|CHINA-mainland": {
+     "A": "22OCT11",
+     "B": "01NOV11"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "01JAN14",
+     "B": "15JAN15"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01JUL23",
+     "B": "01DEC23"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22FEB06",
+     "B": "08AUG06"
+    },
+    "F1|CHINA-mainland": {
+     "A": "22JAN20",
+     "B": "01FEB20"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "EB-2|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "F1|All Chargeability": {
+     "A": "22JAN20",
+     "B": "01FEB20"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "01JAN22",
+     "B": "08JAN22"
+    },
+    "F2B|All Chargeability": {
+     "A": "22AUG19",
+     "B": "01SEP19"
+    },
+    "EB-3|INDIA": {
+     "A": "01JAN14",
+     "B": "15JAN15"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "22AUG19",
+     "B": "01SEP19"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01MAY19",
+     "B": "01OCT19"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01APR22",
+     "B": "01AUG22"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "EB-1|INDIA": {
+     "A": "15OCT22",
+     "B": "01DEC23"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2A|MEXICO": {
+     "A": "22AUG25",
+     "B": "C"
+    },
+    "F2B|MEXICO": {
+     "A": "15FEB09",
+     "B": "15MAY10"
+    },
+    "F4|All Chargeability": {
+     "A": "22OCT11",
+     "B": "01NOV11"
+    },
+    "EB-3|All Chargeability": {
+     "A": "01SEP24",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "01MAR17"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15DEC22",
+     "B": "01JAN23"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "01AUG23",
+     "B": "01JAN24"
+    }
+   }
+  },
+  "2026-10": {
+   "released": "2026-09-29",
+   "cells": {
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01JAN22",
+     "B": "01JUN22"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01NOV13",
+     "B": "22APR15"
+    },
+    "F2B|MEXICO": {
+     "A": "15MAY10",
+     "B": "22MAR11"
+    },
+    "EB-2|INDIA": {
+     "A": "01NOV13",
+     "B": "15JAN15"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|MEXICO": {
+     "A": "01JAN25",
+     "B": "15MAR26"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "22AUG19",
+     "B": "01SEP19"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01JUL23",
+     "B": "01JUL24"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "08JAN22",
+     "B": "01APR24"
+    },
+    "F3|INDIA": {
+     "A": "22OCT14",
+     "B": "01NOV14"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01OCT21",
+     "B": "01JAN23"
+    },
+    "F2A|All Chargeability": {
+     "A": "22SEP26",
+     "B": "C"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22JUL06",
+     "B": "22OCT06"
+    },
+    "F3|All Chargeability": {
+     "A": "22OCT14",
+     "B": "01NOV14"
+    },
+    "F2A|INDIA": {
+     "A": "22SEP26",
+     "B": "C"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "01OCT13",
+     "B": "01OCT14"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01JAN22",
+     "B": "01JUN22"
+    },
+    "F3|MEXICO": {
+     "A": "01JUL01",
+     "B": "01DEC02"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "F1|INDIA": {
+     "A": "22JAN20",
+     "B": "01FEB20"
+    },
+    "F3|CHINA-mainland": {
+     "A": "22OCT14",
+     "B": "01NOV14"
+    },
+    "F1|CHINA-mainland": {
+     "A": "22JAN20",
+     "B": "01FEB20"
+    },
+    "F2B|All Chargeability": {
+     "A": "22AUG19",
+     "B": "01SEP19"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "01JAN14",
+     "B": "15JAN15"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "01JAN25",
+     "B": "15MAR26"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "22SEP26",
+     "B": "C"
+    },
+    "EB-4|INDIA": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "F1|All Chargeability": {
+     "A": "22JAN20",
+     "B": "01FEB20"
+    },
+    "F2B|INDIA": {
+     "A": "22AUG19",
+     "B": "01SEP19"
+    },
+    "EB-3|All Chargeability": {
+     "A": "15MAY24",
+     "B": "01AUG24"
+    },
+    "EB-4|PHILIPPINES": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "01MAR21"
+    },
+    "EB-3|INDIA": {
+     "A": "01JAN14",
+     "B": "15JAN15"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-1|INDIA": {
+     "A": "01FEB23",
+     "B": "01JUL24"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "15AUG23",
+     "B": "01JAN24"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01DEC23",
+     "B": "01MAY24"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "22SEP26",
+     "B": "C"
+    },
+    "F2A|MEXICO": {
+     "A": "22MAR26",
+     "B": "C"
+    },
+    "EB-4|MEXICO": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-3|MEXICO": {
+     "A": "15MAY24",
+     "B": "01AUG24"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "F1|MEXICO": {
+     "A": "08SEP08",
+     "B": "01DEC08"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01OCT19",
+     "B": "01OCT20"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "01JAN25",
+     "B": "15MAR26"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01JAN22",
+     "B": "01JUN22"
+    },
+    "F4|All Chargeability": {
+     "A": "22OCT11",
+     "B": "01NOV11"
+    },
+    "F4|CHINA-mainland": {
+     "A": "22OCT11",
+     "B": "01NOV11"
+    },
+    "F4|INDIA": {
+     "A": "15DEC06",
+     "B": "01FEB07"
+    },
+    "F4|MEXICO": {
+     "A": "22APR01",
+     "B": "30APR01"
+    },
+    "F4|PHILIPPINES": {
+     "A": "15MAY08",
+     "B": "22MAR09"
+    }
+   }
+  },
+  "2026-11": {
+   "released": "2026-10-22",
+   "cells": {
+    "EB-4|PHILIPPINES": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-3 Other Workers|All Chargeability": {
+     "A": "01JUN22",
+     "B": "01JUL22"
+    },
+    "EB-1|INDIA": {
+     "A": "01FEB23",
+     "B": "01JUL24"
+    },
+    "EB-4|CHINA-mainland": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "F2B|INDIA": {
+     "A": "22AUG20",
+     "B": "01SEP20"
+    },
+    "EB-5 Unreserved|CHINA-mainland": {
+     "A": "01DEC16",
+     "B": "01MAR21"
+    },
+    "F3|INDIA": {
+     "A": "22OCT15",
+     "B": "01NOV15"
+    },
+    "EB-5 Infrastructure|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2A|PHILIPPINES": {
+     "A": "22OCT26",
+     "B": "C"
+    },
+    "EB-1|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2A|MEXICO": {
+     "A": "22APR26",
+     "B": "C"
+    },
+    "F3|MEXICO": {
+     "A": "15JUL01",
+     "B": "01DEC02"
+    },
+    "F2A|INDIA": {
+     "A": "22OCT26",
+     "B": "C"
+    },
+    "F2B|MEXICO": {
+     "A": "15MAY10",
+     "B": "22MAR11"
+    },
+    "EB-3|MEXICO": {
+     "A": "15JUN24",
+     "B": "01AUG24"
+    },
+    "EB-5 High Unemployment|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|INDIA": {
+     "A": "01NOV13",
+     "B": "15JAN15"
+    },
+    "EB-2|MEXICO": {
+     "A": "01APR25",
+     "B": "15MAR26"
+    },
+    "F1|All Chargeability": {
+     "A": "22JAN21",
+     "B": "01FEB21"
+    },
+    "EB-4 Religious Workers|PHILIPPINES": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-4|INDIA": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-5 Unreserved|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-1|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3 Other Workers|PHILIPPINES": {
+     "A": "01JAN22",
+     "B": "01JUN22"
+    },
+    "F1|INDIA": {
+     "A": "22JAN21",
+     "B": "01FEB21"
+    },
+    "EB-5 Rural|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|CHINA-mainland": {
+     "A": "22JAN22",
+     "B": "01APR24"
+    },
+    "F2B|PHILIPPINES": {
+     "A": "01OCT13",
+     "B": "01OCT14"
+    },
+    "F2A|All Chargeability": {
+     "A": "22OCT26",
+     "B": "C"
+    },
+    "F3|CHINA-mainland": {
+     "A": "22OCT15",
+     "B": "01NOV15"
+    },
+    "EB-3 Other Workers|INDIA": {
+     "A": "22JAN14",
+     "B": "15JAN15"
+    },
+    "EB-5 Unreserved|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3 Other Workers|MEXICO": {
+     "A": "01JUN22",
+     "B": "01JUL22"
+    },
+    "EB-1|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|MEXICO": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-5 Rural|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|All Chargeability": {
+     "A": "01APR25",
+     "B": "15MAR26"
+    },
+    "EB-1|CHINA-mainland": {
+     "A": "01AUG23",
+     "B": "01JUL24"
+    },
+    "EB-2|PHILIPPINES": {
+     "A": "01APR25",
+     "B": "15MAR26"
+    },
+    "EB-5 High Unemployment|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "F1|MEXICO": {
+     "A": "22SEP08",
+     "B": "01DEC08"
+    },
+    "F2A|CHINA-mainland": {
+     "A": "22OCT26",
+     "B": "C"
+    },
+    "EB-5 Infrastructure|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|All Chargeability": {
+     "A": "C",
+     "B": "C"
+    },
+    "F3|PHILIPPINES": {
+     "A": "22JUL06",
+     "B": "22OCT06"
+    },
+    "EB-3|All Chargeability": {
+     "A": "15JUN24",
+     "B": "01AUG24"
+    },
+    "EB-4|MEXICO": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-5 High Unemployment|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-4 Religious Workers|All Chargeability": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-5 Unreserved|INDIA": {
+     "A": "01DEC23",
+     "B": "01MAY24"
+    },
+    "F3|All Chargeability": {
+     "A": "22OCT15",
+     "B": "01NOV15"
+    },
+    "EB-4 Religious Workers|CHINA-mainland": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "F1|PHILIPPINES": {
+     "A": "01NOV13",
+     "B": "22APR15"
+    },
+    "EB-5 Infrastructure|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2B|All Chargeability": {
+     "A": "22AUG20",
+     "B": "01SEP20"
+    },
+    "EB-5 Unreserved|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "F2B|CHINA-mainland": {
+     "A": "22AUG20",
+     "B": "01SEP20"
+    },
+    "EB-3 Other Workers|CHINA-mainland": {
+     "A": "01OCT19",
+     "B": "01OCT20"
+    },
+    "EB-4|All Chargeability": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-5 High Unemployment|MEXICO": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-2|CHINA-mainland": {
+     "A": "01OCT21",
+     "B": "01JAN23"
+    },
+    "EB-4 Religious Workers|INDIA": {
+     "A": "15DEC22",
+     "B": "01JAN25"
+    },
+    "EB-3|INDIA": {
+     "A": "22JAN14",
+     "B": "15JAN15"
+    },
+    "EB-5 Infrastructure|INDIA": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 Rural|CHINA-mainland": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-5 High Unemployment|PHILIPPINES": {
+     "A": "C",
+     "B": "C"
+    },
+    "EB-3|PHILIPPINES": {
+     "A": "15AUG23",
+     "B": "01JAN24"
+    },
+    "F1|CHINA-mainland": {
+     "A": "22JAN21",
+     "B": "01FEB21"
+    }
+   }
+  }
+ }
+}

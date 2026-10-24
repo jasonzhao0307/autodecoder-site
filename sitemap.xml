@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://autodecoder.app/</loc>
+  </url>
+  <url><loc>https://autodecoder.app/support.html</loc>
+  </url>
+  <url><loc>https://autodecoder.app/privacy.html</loc>
+  </url>
+  <url><loc>https://autodecoder.app/priority-date-tracker/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://autodecoder.app/priority-date-tracker/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://autodecoder.app/priority-date-tracker/zh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://autodecoder.app/priority-date-tracker/es/"/>
+  </url>
+  <url><loc>https://autodecoder.app/priority-date-tracker/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://autodecoder.app/priority-date-tracker/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://autodecoder.app/priority-date-tracker/zh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://autodecoder.app/priority-date-tracker/es/"/>
+  </url>
+  <url><loc>https://autodecoder.app/priority-date-tracker/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://autodecoder.app/priority-date-tracker/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://autodecoder.app/priority-date-tracker/zh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://autodecoder.app/priority-date-tracker/es/"/>
+  </url>
+</urlset>

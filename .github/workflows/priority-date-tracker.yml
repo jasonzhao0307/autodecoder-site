@@ -1,0 +1,45 @@
+# Priority Date Tracker 网页：每 6 小时拉一次最新排期与 USCIS 用表；新一期出来后每天最多发 2 篇类别分析，
+# 文章由 Claude 写稿、Claude 审稿 + 程序核对数字，三关都过才发布，并推送 IndexNow。
+# 需要仓库 Secret：ANTHROPIC_API_KEY。发布节奏与内容规则见 _pdt/build.py、_pdt/ai.py。
+name: Priority Date Tracker pages
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: priority-date-tracker
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Anthropic SDK
+        run: pip install anthropic
+      - name: Update data
+        run: python3 _pdt/update.py
+      - name: Write, review and build pages
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 _pdt/build.py > "$RUNNER_TEMP/new-urls.txt"
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add priority-date-tracker _pdt/data _pdt/drafts sitemap.xml
+          if git diff --cached --quiet; then echo "无变化"; exit 0; fi
+          git commit -m "Priority Date Tracker: 更新排期文章"
+          git push
+      - name: Notify IndexNow
+        run: |
+          if [ -s "$RUNNER_TEMP/new-urls.txt" ]; then
+            sleep 180   # 等 GitHub Pages 部署完再推送
+            python3 _pdt/indexnow.py "$RUNNER_TEMP/new-urls.txt"
+          fi
