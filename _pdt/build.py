@@ -9,10 +9,11 @@
 刻意不放逐月历史表：网页只给本期、上期，以及近 6 / 12 个月的汇总——完整历史留给 app。
 
 用法（站点根目录）：python3 _pdt/build.py [--today YYYY-MM-DD] [--no-ai]
-需要 ANTHROPIC_API_KEY 才能写新稿；没有 key 或加 --no-ai 时只用已审过的稿重新生成页面。
+写新稿要能运行 Claude Code 命令行 `claude`（CI 里用订阅令牌 CLAUDE_CODE_OAUTH_TOKEN 登录）；
+找不到 `claude` 或加 --no-ai 时只用已审过的稿重新生成页面。
 标准输出：本次新发布的 URL（每行一个），给 IndexNow 推送用。
 """
-import argparse, datetime as dt, hashlib, html, json, os, pathlib, re, sys, zoneinfo
+import argparse, datetime as dt, hashlib, html, json, pathlib, re, shutil, sys, zoneinfo
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "_pdt" / "data"
@@ -684,12 +685,12 @@ def main():
     log = lambda m: print(m, file=sys.stderr)
 
     writer = None
-    if not args.no_ai and os.environ.get("ANTHROPIC_API_KEY"):
+    if not args.no_ai and shutil.which("claude"):
         sys.path.insert(0, str(pathlib.Path(__file__).parent))
         from ai import Claude
         writer = Claude()
     elif not args.no_ai:
-        log("⚠️ 没有 ANTHROPIC_API_KEY：不写新稿，只用已审过的稿生成页面")
+        log("⚠️ 找不到 Claude Code 命令行 claude：不写新稿，只用已审过的稿生成页面")
 
     data = Data()
     pub_file = DATA / "published.json"

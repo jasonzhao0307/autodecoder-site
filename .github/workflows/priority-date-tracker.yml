@@ -1,6 +1,6 @@
 # Priority Date Tracker 网页：每 6 小时拉一次最新排期与 USCIS 用表；新一期出来后每天最多发 2 篇类别分析，
 # 文章由 Claude 写稿、Claude 审稿 + 程序核对数字，三关都过才发布，并推送 IndexNow。
-# 需要仓库 Secret：ANTHROPIC_API_KEY。发布节奏与内容规则见 _pdt/build.py、_pdt/ai.py。
+# 走 Claude 订阅：需要仓库 Secret CLAUDE_CODE_OAUTH_TOKEN（本机运行 `claude setup-token` 生成）。发布节奏与内容规则见 _pdt/build.py、_pdt/ai.py。
 name: Priority Date Tracker pages
 
 on:
@@ -21,13 +21,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install Anthropic SDK
-        run: pip install anthropic
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
       - name: Update data
         run: python3 _pdt/update.py
       - name: Write, review and build pages
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python3 _pdt/build.py > "$RUNNER_TEMP/new-urls.txt"
       - name: Commit and push
         run: |

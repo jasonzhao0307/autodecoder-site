@@ -1,13 +1,13 @@
-"""AI 写稿 + 审稿（Claude）。
+"""AI 写稿 + 审稿（Claude，走 Claude 订阅：通过 Claude Code 命令行 `claude -p` 调用，不用 API key）。
 
 流程：写稿 → 程序核对（文中每个日期/天数/月数都必须出现在数据表里）→ 独立审稿（另一次调用，逐条对照数据）。
 任一关不过：带着问题重写一次；还不过就返回 None，这一篇本次不发，下次运行再试。
 表格、USCIS 用表等硬数据仍由程序生成，AI 只写解读文字（总结、分析、常见问题）。
 """
-import json, re
+import json, re, subprocess
 
 MODEL = "claude-opus-5-5"
-MAX_ATTEMPTS = 2
+MAX_ATTEMPTS = 3
 
 LANG_RULES = {
     "en": "Write in clear, plain American English.",
@@ -24,6 +24,14 @@ Hard rules:
 - Do not predict future movement, do not guess why dates moved (no "due to high demand" unless the fact sheet says so), and do not give legal advice. Plain definitions of standard terms (Final Action Date, Dates for Filing, I-485, chargeability, "C", "U") are fine.
 - Lead with the answer: the summary states what changed this month for this category in 2-4 short sentences.
 - Be specific and useful to someone checking their own case: compare countries, point out the largest move, how far Table B is ahead of Table A, and what the 6- and 12-month record shows.
+- Mistakes the fact-checker has caught before, avoid them:
+  - Never say anyone "must", "can" or "cannot" file. Keep the hedge from the fact sheet: "may be able to file", "other eligibility requirements still apply" (Chinese: 「一般可以」「其他条件仍需符合」).
+  - Table B dates are later (further ahead) than Table A dates. Never call Table B an "earlier" cutoff.
+  - No comparisons, rankings or superlatives the fact sheet does not state ("the only", "the first time", "every month", "all countries", "ahead of India"). Say "advanced in 7 of 12 bulletins", not "only advanced".
+  - The 6- and 12-month history covers Table A only. Do not describe Table B history beyond this month and last month.
+  - Moving from Current (C) to a specific date is a retrogression, not a net advance.
+  - In Chinese and Spanish drafts, do not add English words or abbreviations (ROW, chargeability) beyond the official terms the fact sheet uses.
+  - When an article covers several subcategories (EB-3 and EB-3 Other Workers, the EB-5 set-asides, EB-4 and Religious Workers), always name the subcategory a statement is about. Do not say "all EB-3 Table B dates were unchanged" if only one subcategory was unchanged.
 - Do not promote the app; the page handles that.
 - Sections: 2-4 sections, each 1-3 short paragraphs, each section readable on its own (a reader or an AI assistant may quote one section alone). Headings are plain statements, not questions.
 - FAQ: 3-4 questions real applicants would search for, each answered in under 80 words, answer first.
@@ -34,10 +42,11 @@ REVIEWER_SYSTEM = """You are the fact-checker for Priority Date Tracker's Visa B
 1. Every date, day count, month count, number of countries and direction of movement (advanced / unchanged / retrogressed / current / unavailable) matches the fact sheet exactly.
 2. No information that is not in the fact sheet: no reasons for movement, no predictions or "expected" movement, no numbers from outside knowledge. Plain definitions of standard immigration terms are allowed.
 3. No legal advice and no statements that someone definitely can or cannot file; describing which chart USCIS says to use is fine when it matches the fact sheet.
-4. Written in the required language, natural and clear, no leftover English in a Chinese or Spanish draft other than official terms (I-485, USCIS, EB-2, Visa Bulletin, Final Action Dates, Dates for Filing).
+4. Written in the required language and understandable; in a Chinese or Spanish draft, English only for official terms (I-485, USCIS, category codes like EB-2, Visa Bulletin, Final Action Date(s), Date(s) for Filing) or as a short gloss in parentheses after the translated term.
 5. The summary leads with this month's change for the category.
 
-List every problem with the exact quote and what is wrong. If there are no problems, approve with an empty list. Be strict: one wrong number means not approved."""
+List every problem with the exact quote and what is wrong. If there are no problems, approve with an empty list. Be strict on facts: one wrong number or one unsupported claim means not approved.
+Only list problems that break rules 1-5 or would mislead a reader. Do not list wording preferences: singular vs plural of an official term, an English term given in parentheses after its translation, or a sentence that is correct but could be phrased more elegantly."""
 
 DRAFT_SCHEMA = {
     "type": "object",
@@ -98,24 +107,22 @@ def number_check(draft, facts, lang):
 
 
 class Claude:
-    def __init__(self):
-        import anthropic   # 只有真要写稿时才需要 SDK
-        self.client = anthropic.Anthropic()
+    """用 Claude Code 命令行（headless 模式）调用，计入 Claude 订阅额度。
+    CI 里用 `claude setup-token` 生成的长期令牌（环境变量 CLAUDE_CODE_OAUTH_TOKEN）登录；本机直接用已登录的 Claude Code。"""
 
     def json_call(self, system, user, schema):
-        resp = self.client.beta.messages.create(
-            model=MODEL,
-            max_tokens=16000,
-            betas=["server-side-fallback-2026-07-01"],
-            fallbacks="default",   # 安全分类器误拒时由服务端换模型重试
-            system=system,
-            messages=[{"role": "user", "content": user}],
-            output_config={"effort": "high", "format": {"type": "json_schema", "schema": schema}},
-        )
-        if resp.stop_reason != "end_turn":
-            raise RuntimeError(f"stop_reason={resp.stop_reason} {getattr(resp, 'stop_details', None)}")
-        text = next(b.text for b in resp.content if b.type == "text")
-        return json.loads(text), resp.model
+        cmd = ["claude", "-p", "--model", MODEL, "--effort", "high", "--output-format", "json",
+               "--tools", "", "--no-session-persistence",
+               "--system-prompt", system, "--json-schema", json.dumps(schema)]
+        r = subprocess.run(cmd, input=user, capture_output=True, text=True, timeout=900)
+        try:
+            out = json.loads(r.stdout)
+        except json.JSONDecodeError:
+            raise RuntimeError(f"claude 退出码 {r.returncode}: {(r.stderr or r.stdout)[-500:]}")
+        if out.get("is_error") or out.get("subtype") != "success" or not isinstance(out.get("structured_output"), dict):
+            raise RuntimeError(f"claude 返回错误: {out.get('subtype')} {str(out.get('result'))[:300]}")
+        model = next(iter(out.get("modelUsage") or {}), MODEL)
+        return out["structured_output"], model
 
 
 def write_reviewed(client, facts, lang, log):
@@ -140,4 +147,6 @@ def write_reviewed(client, facts, lang, log):
             return {"draft": draft, "review": review, "model": model, "attempts": attempt}
         feedback = "\n".join(f"- \"{i['quote']}\": {i['problem']}" for i in review["issues"]) or "- Reviewer did not approve."
         log(f"  {lang} 第 {attempt} 稿：审稿未过 {len(review['issues'])} 条")
+        for i in review["issues"]:
+            log(f"    - 「{i['quote'][:120]}」 {i['problem'][:300]}")
     return None
