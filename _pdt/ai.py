@@ -6,7 +6,7 @@
 """
 import json, re, subprocess
 
-MODEL = "claude-opus-5-5"
+MODEL = "claude-sonnet-5-5"   # 用订阅额度：Sonnet 比 Opus 省一半左右；审稿 + 程序核对两关保证质量
 MAX_ATTEMPTS = 3
 
 LANG_RULES = {
