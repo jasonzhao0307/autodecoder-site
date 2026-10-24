@@ -391,9 +391,10 @@ def chart_sentence(data, month, cats, lang):
         return {"en": f"For {ml}, USCIS says {kind} applicants must use the Final Action Dates chart (Table A) to file Form I-485 — Table B cannot be used this month.",
                 "zh": f"USCIS 公布：{ml}{kind}递交 I-485 只能用表A（Final Action Dates），本月不开放表B。",
                 "es": f"Para {ml}, USCIS indica que los solicitantes {kind} deben usar la tabla de fechas de acción final (Tabla A) para presentar el formulario I-485; este mes no se puede usar la Tabla B."}[lang], "A"
-    return {"en": f"USCIS has not yet announced which chart {kind} applicants must use for {ml}. It usually does so within about a week of the Visa Bulletin; check the USCIS filing charts page before filing.",
-            "zh": f"USCIS 尚未公布{ml}{kind}用表A还是表B，通常在排期公布后一周左右公布。递交前请查看 USCIS 用表页面。",
-            "es": f"USCIS aún no ha anunciado qué tabla deben usar los solicitantes {kind} en {ml}. Suele hacerlo alrededor de una semana después del boletín; consulte la página de USCIS antes de presentar."}[lang], None
+    # 没拿到用表数据（USCIS 网站会拦云服务器）：不说「尚未公布」，只让读者去 USCIS 确认，这样怎样都不会说错
+    return {"en": f"Check the USCIS filing charts page to see whether {kind} applicants must use the Final Action Dates chart (Table A) or the Dates for Filing chart (Table B) to file Form I-485 in {ml}.",
+            "zh": f"{ml}{kind}递交 I-485 用表A还是表B，以 USCIS 用表页面公布为准，递交前请先查看。",
+            "es": f"Consulte la página de USCIS para saber si en {ml} los solicitantes {kind} deben usar la Tabla A (fechas de acción final) o la Tabla B (fechas de presentación) para presentar el formulario I-485."}[lang], None
 
 
 def trend_lines(data, month, cat, country, lang):
