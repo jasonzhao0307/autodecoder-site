@@ -4,7 +4,8 @@
 用法：python3 _pdt/update.py [--charts-only]
 1. 排期：Priority Date Tracker 后端的免费接口 GET /current（app 用户众包上报的最新一期 + 上一期）。
    政府站有 Cloudflare，服务器直连抓不到，所以不直接抓 travel.state.gov。
-2. USCIS 本月用表A还是表B：抓 USCIS「Adjustment of Status Filing Charts」页面的原文。
+2. USCIS 本月用表A还是表B：主要来自 /current 的 charts（app 在用户手机上抓 USCIS 页面后上报）；
+   另外也直接抓 USCIS「Adjustment of Status Filing Charts」页面（GitHub 云服务器会被拦，在用户 Mac 上能成功）。
 任一步失败只打警告、保留已有数据，不影响后面生成网页。
 """
 import json, pathlib, re, sys, urllib.request
@@ -60,6 +61,23 @@ def update_bulletins():
         db["months"] = dict(sorted(db["months"].items()))
         path.write_text(json.dumps(db, ensure_ascii=False, indent=1) + "\n")
     print(f"bulletins: 最新 {month}，{'有更新' if changed else '无变化'}", file=sys.stderr)
+    merge_charts(cur.get("charts") or {}, "后端")
+
+
+def merge_charts(incoming, source):
+    """把用表并入 uscis-charts.json（只认 family/employment 与 A/B）。"""
+    path = DATA / "uscis-charts.json"
+    charts = json.loads(path.read_text()) if path.exists() else {}
+    before = json.dumps(charts, sort_keys=True)
+    for m, kinds in incoming.items():
+        if not re.fullmatch(r"\d{4}-\d{2}", m) or not isinstance(kinds, dict):
+            continue
+        for k, v in kinds.items():
+            if k in ("family", "employment") and v in ("A", "B"):
+                charts.setdefault(m, {})[k] = v
+    if json.dumps(charts, sort_keys=True) != before:
+        path.write_text(json.dumps(dict(sorted(charts.items())), indent=1) + "\n")
+        print(f"uscis-charts: 从{source}更新", file=sys.stderr)
 
 
 def update_charts():
