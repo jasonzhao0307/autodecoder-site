@@ -36,6 +36,7 @@ jobs:
           git add priority-date-tracker _pdt/data _pdt/drafts sitemap.xml
           if git diff --cached --quiet; then echo "无变化"; exit 0; fi
           git commit -m "Priority Date Tracker: 更新排期文章"
+          git pull --rebase   # 用户 Mac 的定时任务可能刚推过 USCIS 用表；合并后再推，免得写好的稿丢失
           git push
       - name: Notify IndexNow
         run: |
