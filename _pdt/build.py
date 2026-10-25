@@ -703,7 +703,7 @@ def main():
     # 缺数据或审稿没过的类别先跳过，后面的照常发，被跳过的第二天再试。
     latest = max(data.months)
     allowed = ARTICLES_PER_DAY
-    count = sum(1 for e in published if e["date"] == today.isoformat())
+    count = sum(1 for e in published if e["date"] == today.isoformat() and e["month"] == latest)   # 新一期当天就能开始发
     failed = state.setdefault("failed", {})   # "月份/类别" → 最近一次审稿没过的日期；当天不再重试
     new, attempts = [], 0
     for slug, cats in GROUPS:

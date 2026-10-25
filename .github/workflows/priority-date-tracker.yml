@@ -6,7 +6,7 @@ name: Priority Date Tracker pages
 on:
   schedule:
     - cron: "17 */6 * * *"
-  workflow_dispatch:
+  workflow_dispatch:   # 也由后端 Lambda 在新一期排期入库时触发（不用等定时）
 
 permissions:
   contents: write
