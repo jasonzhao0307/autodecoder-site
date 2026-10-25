@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """每天拉一次最新数据，并入 _pdt/data/（GitHub Actions 定时跑，也可本地跑）。
 
+用法：python3 _pdt/update.py [--charts-only]
 1. 排期：Priority Date Tracker 后端的免费接口 GET /current（app 用户众包上报的最新一期 + 上一期）。
    政府站有 Cloudflare，服务器直连抓不到，所以不直接抓 travel.state.gov。
 2. USCIS 本月用表A还是表B：抓 USCIS「Adjustment of Status Filing Charts」页面的原文。
@@ -83,7 +84,9 @@ def update_charts():
 
 
 if __name__ == "__main__":
-    for step in (update_bulletins, update_charts):
+    # --charts-only：只更新 USCIS 用表（用户 Mac 上的定时任务用；USCIS 会拦 GitHub 的云服务器）
+    steps = (update_charts,) if "--charts-only" in sys.argv else (update_bulletins, update_charts)
+    for step in steps:
         try:
             step()
         except Exception as e:   # 网络/格式问题：保留旧数据，照常生成网页
