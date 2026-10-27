@@ -4247,6 +4247,26 @@
     "F1|CHINA-mainland": {
      "A": "22JAN21",
      "B": "01FEB21"
+    },
+    "F4|MEXICO": {
+     "A": "22APR01",
+     "B": "30APR01"
+    },
+    "F4|CHINA-mainland": {
+     "A": "22OCT12",
+     "B": "01NOV12"
+    },
+    "F4|INDIA": {
+     "A": "15DEC06",
+     "B": "01FEB07"
+    },
+    "F4|PHILIPPINES": {
+     "A": "15MAY08",
+     "B": "22MAR09"
+    },
+    "F4|All Chargeability": {
+     "A": "22OCT12",
+     "B": "01NOV12"
     }
    }
   }
