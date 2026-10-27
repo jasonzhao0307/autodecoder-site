@@ -1,0 +1,62 @@
+{
+ "facts_hash": "fd9e464007026f09",
+ "written": "2026-10-27",
+ "model": "claude-sonnet-5-5",
+ "attempts": 2,
+ "review": {
+  "approved": true,
+  "issues": []
+ },
+ "draft": {
+  "summary": [
+   "En el Boletín de Visas de noviembre de 2026, las fechas de acción final (Tabla A) de F2B avanzaron en 3 de 5 países y no cambiaron en 2.",
+   "Resto del mundo, China continental e India avanzaron 366 días (≈12.0 meses), hasta el 22 de agosto de 2020. México y Filipinas quedaron sin cambio.",
+   "En la Tabla B (fechas de presentación), esos tres países también avanzaron 366 días (≈12.0 meses), hasta el 1 de septiembre de 2020."
+  ],
+  "sections": [
+   {
+    "heading": "Tabla A (fechas de acción final) de F2B en noviembre de 2026",
+    "paragraphs": [
+     "La fecha de acción final es la fecha de prioridad que se compara con la de cada solicitante. Una visa de inmigrante puede estar disponible para quienes tienen una fecha de prioridad anterior a la fecha de acción final de su categoría y país. En F2B (hijos adultos solteros de residentes permanentes), tres países avanzaron en la Tabla A y dos no cambiaron.",
+     "Resto del mundo, China continental e India pasaron del 22 de agosto de 2019 en octubre de 2026 al 22 de agosto de 2020 en noviembre de 2026. Cada uno avanzó 366 días (≈12.0 meses). México se mantuvo en el 15 de mayo de 2010 y Filipinas en el 1 de octubre de 2013, ambos sin cambio."
+    ]
+   },
+   {
+    "heading": "Tabla B (fechas de presentación) y el formulario I-485 en noviembre de 2026",
+    "paragraphs": [
+     "Para noviembre de 2026, USCIS indica que los solicitantes familiares deben usar la Tabla B (fechas de presentación) para presentar el formulario I-485. Si su fecha de prioridad es anterior a la fecha de la Tabla B de su categoría y país, es posible que pueda presentar su solicitud de ajuste de estatus este mes. Los demás requisitos de elegibilidad deben cumplirse.",
+     "En la Tabla B de F2B, Resto del mundo, China continental e India pasaron del 1 de septiembre de 2019 al 1 de septiembre de 2020, un avance de 366 días (≈12.0 meses) en cada caso. México quedó en el 22 de marzo de 2011 y Filipinas en el 1 de octubre de 2014, sin cambio en ambos.",
+     "La Tabla B tiene fechas posteriores a las de la Tabla A. La diferencia es de 10 días (≈0.3 meses) para Resto del mundo, China continental e India, de 311 días (≈10.2 meses) para México y de 365 días (≈12.0 meses) para Filipinas."
+    ]
+   },
+   {
+    "heading": "Historial de F2B en la Tabla A durante los últimos 6 y 12 boletines",
+    "paragraphs": [
+     "Resto del mundo, China continental e India tienen el mismo historial en la Tabla A. En los últimos 6 boletines (desde mayo de 2026), la fecha pasó del 22 de mayo de 2017 al 22 de agosto de 2020, un neto de +1188 días (≈39.0 meses): avanzó en 5, sin cambio en 1 y retrocedió en 0. En los últimos 12 boletines (desde noviembre de 2025), pasó del 1 de diciembre de 2016 al 22 de agosto de 2020, un neto de +1360 días (≈44.7 meses): avanzó en 6, sin cambio en 6 y retrocedió en 0.",
+     "México, en los últimos 6 boletines, pasó del 15 de febrero de 2009 al 15 de mayo de 2010, un neto de +454 días (≈14.9 meses): avanzó en 1, sin cambio en 5 y retrocedió en 0. En los últimos 12 boletines, pasó del 15 de diciembre de 2007 al 15 de mayo de 2010, un neto de +882 días (≈29.0 meses): avanzó en 4, sin cambio en 8 y retrocedió en 0.",
+     "Filipinas, en los últimos 6 boletines, pasó del 8 de abril de 2013 al 1 de octubre de 2013, un neto de +176 días (≈5.8 meses): avanzó en 3, sin cambio en 3 y retrocedió en 0. En los últimos 12 boletines, pasó del 1 de octubre de 2012 al 1 de octubre de 2013, un neto de +365 días (≈12.0 meses): avanzó en 6, sin cambio en 6 y retrocedió en 0."
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "¿Qué cambió en F2B en el Boletín de Visas de noviembre de 2026?",
+    "a": "Las fechas de acción final (Tabla A) de F2B avanzaron en 3 de 5 países. Resto del mundo, China continental e India avanzaron 366 días (≈12.0 meses), hasta el 22 de agosto de 2020. México (15 de mayo de 2010) y Filipinas (1 de octubre de 2013) no cambiaron."
+   },
+   {
+    "q": "¿Qué tabla usa USCIS para el formulario I-485 en noviembre de 2026?",
+    "a": "USCIS indica que los solicitantes familiares deben usar la Tabla B (fechas de presentación) para presentar el formulario I-485 en noviembre de 2026. Si su fecha de prioridad es anterior a la fecha de la Tabla B de su categoría y país, es posible que pueda presentar su solicitud; los demás requisitos deben cumplirse."
+   },
+   {
+    "q": "¿Qué significa la fecha de acción final en el Boletín de Visas?",
+    "a": "Es la fecha de prioridad que se compara con la de cada solicitante. Una visa de inmigrante puede estar disponible para quienes tienen una fecha de prioridad anterior a la fecha de acción final de su categoría y país. Se publica en la Tabla A del Boletín de Visas."
+   },
+   {
+    "q": "¿Cuál es la fecha de presentación (Tabla B) de F2B para México y Filipinas en noviembre de 2026?",
+    "a": "Para México es el 22 de marzo de 2011 y para Filipinas, el 1 de octubre de 2014. Ambas fechas quedaron sin cambio respecto de octubre de 2026. Son posteriores a las fechas de la Tabla A: por 311 días (≈10.2 meses) en México y por 365 días (≈12.0 meses) en Filipinas."
+   }
+  ],
+  "meta_description": "F2B en el Boletín de Visas de noviembre de 2026: Resto del mundo, China continental e India avanzan 366 días; México y Filipinas sin cambio."
+ },
+ "facts": "Language: es\nBulletin: noviembre de 2026 Visa Bulletin, released 22 de octubre de 2026\nPrevious bulletin: octubre de 2026\nCategory group: F2B\n\nWhich chart USCIS accepts for I-485 this month: Para noviembre de 2026, USCIS indica que los solicitantes familiares deben usar la tabla de fechas de presentación (Tabla B) para presentar el formulario I-485. Si su fecha de prioridad es anterior a la fecha de la Tabla B de su categoría y país, es posible que pueda presentar su solicitud de ajuste de estatus este mes (deben cumplirse los demás requisitos).\n\n== F2B Hijos Adultos Solteros de Residentes Permanentes (F2B) ==\nSummary: En el Boletín de Visas de noviembre de 2026, las fechas de acción final de F2B avanzaron en 3 de 5 países y no cambiaron en 2.\nSummary: El mayor avance: Resto del mundo, 366 días (≈12.0 meses), hasta el 22 de agosto de 2020.\nFechas de acción final (Tabla A):\n- Resto del mundo: noviembre de 2026 22 de agosto de 2020; octubre de 2026 22 de agosto de 2019; Avanzó 366 días (≈12.0 meses)\n- China continental: noviembre de 2026 22 de agosto de 2020; octubre de 2026 22 de agosto de 2019; Avanzó 366 días (≈12.0 meses)\n- India: noviembre de 2026 22 de agosto de 2020; octubre de 2026 22 de agosto de 2019; Avanzó 366 días (≈12.0 meses)\n- México: noviembre de 2026 15 de mayo de 2010; octubre de 2026 15 de mayo de 2010; Sin cambio\n- Filipinas: noviembre de 2026 1 de octubre de 2013; octubre de 2026 1 de octubre de 2013; Sin cambio\nFechas de presentación (Tabla B):\n- Resto del mundo: noviembre de 2026 1 de septiembre de 2020; octubre de 2026 1 de septiembre de 2019; Avanzó 366 días (≈12.0 meses)\n- China continental: noviembre de 2026 1 de septiembre de 2020; octubre de 2026 1 de septiembre de 2019; Avanzó 366 días (≈12.0 meses)\n- India: noviembre de 2026 1 de septiembre de 2020; octubre de 2026 1 de septiembre de 2019; Avanzó 366 días (≈12.0 meses)\n- México: noviembre de 2026 22 de marzo de 2011; octubre de 2026 22 de marzo de 2011; Sin cambio\n- Filipinas: noviembre de 2026 1 de octubre de 2014; octubre de 2026 1 de octubre de 2014; Sin cambio\n¿Cuánto adelanta la Tabla B?\n- Resto del mundo: la Tabla B va 10 días (≈0.3 meses) por delante de la Tabla A.\n- China continental: la Tabla B va 10 días (≈0.3 meses) por delante de la Tabla A.\n- India: la Tabla B va 10 días (≈0.3 meses) por delante de la Tabla A.\n- México: la Tabla B va 311 días (≈10.2 meses) por delante de la Tabla A.\n- Filipinas: la Tabla B va 365 días (≈12.0 meses) por delante de la Tabla A.\nÚltimos 6 y 12 meses (Fechas de acción final (Tabla A)):\n- Resto del mundo: Últimos 6 boletines (desde mayo de 2026): 22 de mayo de 2017 → 22 de agosto de 2020, neto +1188 días (≈39.0 meses). Avanzó en 5, sin cambio en 1, retrocedió en 0.\n- Resto del mundo: Últimos 12 boletines (desde noviembre de 2025): 1 de diciembre de 2016 → 22 de agosto de 2020, neto +1360 días (≈44.7 meses). Avanzó en 6, sin cambio en 6, retrocedió en 0.\n- China continental: Últimos 6 boletines (desde mayo de 2026): 22 de mayo de 2017 → 22 de agosto de 2020, neto +1188 días (≈39.0 meses). Avanzó en 5, sin cambio en 1, retrocedió en 0.\n- China continental: Últimos 12 boletines (desde noviembre de 2025): 1 de diciembre de 2016 → 22 de agosto de 2020, neto +1360 días (≈44.7 meses). Avanzó en 6, sin cambio en 6, retrocedió en 0.\n- India: Últimos 6 boletines (desde mayo de 2026): 22 de mayo de 2017 → 22 de agosto de 2020, neto +1188 días (≈39.0 meses). Avanzó en 5, sin cambio en 1, retrocedió en 0.\n- India: Últimos 12 boletines (desde noviembre de 2025): 1 de diciembre de 2016 → 22 de agosto de 2020, neto +1360 días (≈44.7 meses). Avanzó en 6, sin cambio en 6, retrocedió en 0.\n- México: Últimos 6 boletines (desde mayo de 2026): 15 de febrero de 2009 → 15 de mayo de 2010, neto +454 días (≈14.9 meses). Avanzó en 1, sin cambio en 5, retrocedió en 0.\n- México: Últimos 12 boletines (desde noviembre de 2025): 15 de diciembre de 2007 → 15 de mayo de 2010, neto +882 días (≈29.0 meses). Avanzó en 4, sin cambio en 8, retrocedió en 0.\n- Filipinas: Últimos 6 boletines (desde mayo de 2026): 8 de abril de 2013 → 1 de octubre de 2013, neto +176 días (≈5.8 meses). Avanzó en 3, sin cambio en 3, retrocedió en 0.\n- Filipinas: Últimos 12 boletines (desde noviembre de 2025): 1 de octubre de 2012 → 1 de octubre de 2013, neto +365 días (≈12.0 meses). Avanzó en 6, sin cambio en 6, retrocedió en 0."
+}
